@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>CarbonView - Tracking GHG Emissions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img class="navbar-logo" src="/img/logo_carbon_view-removebg-preview.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="map.html">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Landing Section -->
+<section id="Home" class="landing">
+    <div class="container-fluid d-flex align-items-center">
+        <div class="row flex-md-row-reverse w-100">
+            <!-- Left Div: Main Heading -->
+            <div class="col-md-6 text-center text-md-left d-flex align-items-center justify-content-center">
+                <div class="text-white p-4">
+                    <h1 class="main-heading">Explore Global Emissions with CarbonView</h1>
+                    <p class="lead">Empowering climate action with data and technology.</p>
+                    <a href="map.html" class="btn btn-explore">Explore Map >></a>
+                </div>
+            </div>
+            <!-- Right Div: Repetitive Video -->
+            <div class="col-md-6 video-container">
+                <video autoplay loop muted class="video-bg">
+                    <source src="https://cdn.pixabay.com/video/2016/08/24/4788-180289892_large.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
+<main class="container my-5">
+    
+    <div class="row">
+
+        <!-- Left Column -->
+        <section class="col-md-6" id="about">
+            <div class="section-header mb-4">
+                <h1>About Carbon View</h1>
+                <hr class="horizontal-line">
+            </div>
+            <div class="vision widget mb-4">
+                <h2>Our Vision</h2>
+                <p>At CarbonView, our vision is to be a leading platform for environmental transparency, driving global awareness and action on greenhouse gas emissions. We aspire to empower communities, organizations, and individuals with accurate data and innovative tools, fostering a collective commitment to sustainability. By transforming complex emissions data into accessible insights, we aim to inspire informed decisions and proactive measures that contribute to a healthier planet for future generations.</p>
+                <div class="vision-graph">
+                    <img src="https://brightest-production.s3.amazonaws.com/static/img/scope-1-carbon-ghg-emissions.jpg" alt="Emissions Chart">
+                </div>
+            </div>
+
+            <div class="section-header mb-4">
+                <h1>Our Approach</h1>
+                <hr class="horizontal-line">
+            </div>
+            <div class="approach widget mb-4">
+                <h2>How Carbon View Works</h2>
+                <p>At CarbonView, we take a data-driven and user-centric approach to tackle greenhouse gas (GHG) emissions. By leveraging real-time satellite data, we provide accurate insights through an intuitive platform that emphasizes ease of use. We prioritize education and awareness, offering resources that inform users about GHG sources and impacts, empowering proactive action in their communities. Our commitment to fostering community engagement allows users to share experiences and solutions, amplifying our collective impact. Through this holistic approach, we strive to create meaningful change in the fight against climate change.</p>
+                <img src="https://media.springernature.com/lw1200/springer-static/image/art%3A10.1038%2Fs41597-022-01439-7/MediaObjects/41597_2022_1439_Fig3_HTML.png" alt="Emissions Bar Chart">
+            </div>
+        </section>
+        
+        <!-- Right Column -->
+        <section class="col-md-6">
+            <div class="section-header mb-4">
+                <h1>News and Insights</h1>
+                <hr class="horizontal-line">
+            </div>
+            <div class="news widget">
+                <article class="mb-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDaqPONSSIg3LKXvnZi6p8CDt_2FhiamIEzw&s" alt="Steel Emissions"><br>
+                    <h4>Insight Brief: COP28 Agreement</h4>
+                    <p>At the recent COP28 summit in Dubai, nearly 200 countries reached a historic agreement on a global stocktake, aiming to accelerate climate action to meet the 1.5°C target set by the Paris Agreement. The agreement emphasizes the need for a 43% reduction in global GHG emissions by 2030 compared to 2019 levels. It also calls for a tripling of renewable energy capacity and doubling energy efficiency improvements​.</p>
+                </article>
+                <article class="mb-4">
+                    <img src="https://www.researchgate.net/publication/320346403/figure/fig3/AS:548848524120070@1507867093886/GHG-emission-reduction-potential-by-2050.png" alt="RPL Jamnagar"><br>
+                    <h4>Potential Decline in Emissions</h4>
+                    <p>Experts suggest that 2024 might finally see a decline in global GHG emissions, primarily due to a significant increase in renewable energy adoption and a shift towards more sustainable practices. This would mark a pivotal shift after years of rising emissions​.</p>
+                </article>
+                <article>
+                    <img src="https://www.iberdrola.com/documents/20125/40594/Financiamiento_Climatico_746x419.jpg/ae143d3f-7f66-c7bd-7543-7f0bd203565f?t=1627468052946" alt="Green Investment"><br>
+                    <h4>Investments for Climate Action</h4>
+                    <p>Investment in climate action is projected to exceed $1 trillion for the first time in 2025, as private and public sectors ramp up efforts to finance renewable energy and sustainable infrastructure projects worldwide​.</p>
+                </article>
+            </div>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer id="footer" class="text-white text-center p-3">
+    <div class="container">
+        <p>&copy; 2024 CarbonView. All rights reserved.</p>
+        <p>
+            <a href="#" class="text-white">Privacy Policy</a> | 
+            <a href="#" class="text-white">Terms of Service</a>
+        </p>
+        <div class="social-icons">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
